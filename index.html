@@ -1,200 +1,48 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./src/style.css">
-    <title>TRYme.dev</title>
-  </head>
-  <body>
-    <header class="home">
-      <nav class="nav-bar">
-        <!-- logo of course -->
-        <div class="logo">
-          <span class="logo-text">TRYme</span>
-          <span class="tag">B</span>
-        </div>
-        <!-- my shits -->
-        <ul class="project-lists">
-          <li><a href="#">Projects</a></li>
-          <li><a href="#">Experience</a></li>
-        </ul>
-        <!-- social-media i guess -->
-        <ul class="smedia-lists">
-          <li><a href="#">LinkedIn</a></li>
-          <li><a href="#">Github</a></li>
-        </ul>
-      </nav>
 
-      <div class="hero-title">
-        <div>
-          <span>At the end of the day, </span><span>it's all about the project!</span>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+  <title>TRYme</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-center">
+      <div class="nav-header">
+        <a class="logo" href="#">TRYme.co</a>
+        <button id="nav-toggle"><i class="fa-solid fa-bars"></i></button>
+      </div>
+      <ul class="links">
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Blog</a></li>
+        <li><a href="#">Team work</a></li>
+      </ul>
+    </div>
+
+    <section id="hero-section">
+      <div class="hero-contents">
+        <div class="titles">
+          <h3>At the end of the day,</h3>
+          <h2>it's all about projects</h2>
+          <p>Dolor, sit amet consectetur adipisicing elit. Id, enim!</p>
+        </div>
+        <div class="hero-buttons">
+          <a href="#">Explore projects</a>
+          <a href="#">Know me</a>
         </div>
       </div>
-    </header>
+    </section>
+  </nav>
+  <script src="./src/main.js"></script>
+</body>
 
-    <main>
-      <h2 class="main-title">JavaScript Projects</h2>
-      <section class="project-section">
-        
-        <article>
-          <h3>Beginner</h3>
-          <p>Basic JavaScript projects covering fundamentals like variables, loops, functions, and DOM manipulation. Some beginner-friendly projects include:</p>
-          <div>
-            <span>To-Do List</span> <span>Dice Roller</span> <span>Countdown Timer</span> <span>Tip Calculator</span> <span>Random Quote Generator</span>
-          </div>
-          <button>Explore more</button>
-        </article>
-    
-        <article>
-          <h3>Intermediate</h3>
-          <p>Intermediate projects focus on API integration, local storage, and asynchronous JavaScript. Examples include:</p>
-          <div>
-            <span>Weather App</span> <span>Book Library</span> <span>Notes App</span> <span>Quiz App</span> <span>Expense Tracker</span>
-          </div>
-          <button>Explore more</button>
-        </article>
-    
-        <article>
-          <h3>Advanced</h3>
-          <p>Advanced projects cover frameworks, authentication, and performance optimization. Some examples include:</p>
-          <div>
-            <span>Movie Search App</span> <span>E-Commerce Cart</span> <span>Chat Application</span> <span>Task Management System</span> <span>Social Media Dashboard</span>
-          </div>
-          <button>Explore more</button>
-        </article>
-    
-      </section>
-
-      <h2 class="main-title">Top Projects</h2>
-      <section class="top-project-section">
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-
-        <article>
-          <div>
-            <img src="https://www.edureka.co/blog/wp-content/uploads/2019/08/shopping-cart.png" alt="">
-          </div>
-          <div class="top-project-desc">
-            <h3>Shopping Cart</h3>
-            <div>
-              <span>Demo</span>
-              <span>Github</span>
-            </div>
-          </div>
-        </article>
-      </section>
-
-    </main>
-    
-    
-    
-    
-    
-
-
-    <script type="module" src="/src/main.js"></script>
-  </body>
 </html>
