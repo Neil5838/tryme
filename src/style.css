@@ -4,6 +4,11 @@
   box-sizing: border;
 }
 
+nav {
+  background-color: #fff;
+  box-shadow: 1px 1px 10px #ddd;
+}
+
 .links {
   list-style-type: none;
   height: 0;
@@ -53,114 +58,11 @@
 
 .show-links {
   background-color: lightcyan;
-  height: 10rem;
+  height: 115.33px;
 }
 
 
 /* hero-section */
-
-nav {
-  height: 100vh;
-  /* border: 2px solid red; */
-  background-image: url('../public/images/abstract.jpg');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-
-#hero-section {
-  /* border: 1px solid red; */
-  height: calc(100vh - 61.33px);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero-contents {
-  /* border: 1px solid red; */
-  text-align: center;
-  width: 90vw;
-  max-width: 768px;
-  margin: auto;
-}
-
-.hero-contents .titles {
-  margin-bottom: 2.5rem;
-}
-
-.hero-contents .titles h3 {
-  font-size: 1.75rem;
-  font-family: "Roboto", serif;
-
-}
-
-.hero-contents .titles h2 {
-  font-family: "Roboto", serif;
-  letter-spacing: 1.8px;
-
-
-  font-size: 4rem;
-  margin: 0.5rem 0;
-}
-
-.hero-contents .titles p {
-  font-family: "Roboto", serif;
-  letter-spacing: 1.4px;
-  font-size: 18px;
-  color: gray;
-}
-
-.hero-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 1rem;
-  font-family: "Open Sans", serif;
-
-}
-
-.hero-buttons a {
-  text-decoration: none;
-  color: #fff;
-  background-color: #262626;
-  padding: 8px 20px;
-  border-radius: 20px;
-  font-weight: 600;
-}
-
-
-
-
-@media (max-width: 928px) {
-  .hero-contents .titles h3 {
-    font-size: 1.5rem;
-  }
-
-  .hero-contents .titles h2 {
-    font-size: 3.5rem;
-  }
-}
-
-@media (max-width: 768px) {
-  .hero-contents .titles h3 {
-    font-size: 1.25rem;
-    letter-spacing: normal;
-  }
-
-  .hero-contents .titles h2 {
-    font-size: 2.5rem;
-    letter-spacing: normal;
-  }
-
-  .hero-buttons {
-    flex-direction: column;
-  }
-
-  .hero-buttons a {
-    font-size: 14px;
-  }
-}
-
 
 
 
